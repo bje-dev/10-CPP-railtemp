@@ -3,8 +3,8 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-const char* ssid = "INFRAXX";//nombre del wi-fi
-const char* password = "pgwrc9q34q";//contraseña de wi-fi
+const char* ssid = "SSID";//nombre del wi-fi
+const char* password = "password";//contraseña de wi-fi
 const char* host = "172.17.33.90";//poner el Ip del servidor
 
 IPAddress staticIP(172, 17, 35, 100); // Dirección IP fija deseada
